@@ -7,7 +7,7 @@ function App() {
 
     const handleSubmit = async () => {
         try {
-            const response = await fetch('https://vercel.com/deepas-projects-6aab467a/bajaj-health-ugad/2CqwMSSZDCR6cv6sEg4Q8JHDNH4h/bfhl', {
+            const response = await fetch('https://bajaj-health-s7jw.vercel.app//bfhl', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(JSON.parse(jsonData))
